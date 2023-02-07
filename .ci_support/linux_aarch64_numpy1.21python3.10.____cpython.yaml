@@ -41,9 +41,9 @@ python:
 target_platform:
 - linux-aarch64
 uhd:
-- 4.3.0
+- 4.4.0
 volk:
-- '2.5'
+- '3.0'
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version

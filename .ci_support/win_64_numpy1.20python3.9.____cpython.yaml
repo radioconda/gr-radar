@@ -27,9 +27,9 @@ python:
 target_platform:
 - win-64
 uhd:
-- 4.3.0
+- 4.4.0
 volk:
-- '2.5'
+- '3.0'
 zip_keys:
 - - python
   - numpy
