@@ -19,9 +19,6 @@ provider:
   #linux_aarch64: github_actions
   #linux_ppc64le: github_actions
 recipe_dir: .conda/recipe
-remote_ci_setup:
-  - ryanvolz::conda-forge-ci-setup=3
-  - py-lief<0.12
 # skip unnecessary files since this is not a full-fledged conda-forge feedstock
 skip_render:
   - README.md
