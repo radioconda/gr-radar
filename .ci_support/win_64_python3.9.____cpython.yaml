@@ -11,7 +11,7 @@ cxx_compiler:
 fftw:
 - '3'
 gnuradio_core:
-- 3.10.6
+- 3.10.7
 gnuradio_extra_pin:
 - ''
 numpy:
@@ -22,8 +22,12 @@ pin_run_as_build:
   python:
     min_pin: x.x
     max_pin: x.x
+pyqt:
+- '5.15'
 python:
 - 3.9.* *_cpython
+qt_main:
+- '5.15'
 target_platform:
 - win-64
 uhd:
