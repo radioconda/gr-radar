@@ -41,8 +41,8 @@ requirements:
     - numpy
     - volk
     # Add/remove library dependencies here
-    - boost-cpp
     - fftw
+    - libboost-devel
     - pyqt
     - qt-main
     - qwt
@@ -53,8 +53,6 @@ requirements:
   run:
     - numpy
     - python
-    # Add/remove runtime dependencies here
-    - boost-cpp
     - pyqt
     - {{ pin_compatible('qwt', max_pin='x.x') }}
 
