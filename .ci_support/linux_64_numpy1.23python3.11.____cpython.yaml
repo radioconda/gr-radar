@@ -1,13 +1,7 @@
-BUILD:
-- aarch64-conda_cos7-linux-gnu
-boost_cpp:
-- 1.78.0
 c_compiler:
 - gcc
 c_compiler_version:
 - '12'
-cdt_arch:
-- aarch64
 cdt_name:
 - cos7
 channel_sources:
@@ -25,27 +19,25 @@ fftw:
 gmp:
 - '6'
 gnuradio_core:
-- 3.10.7
+- 3.10.8
 gnuradio_extra_pin:
 - ''
 numpy:
-- '1.21'
+- '1.23'
 pin_run_as_build:
-  boost-cpp:
-    max_pin: x.x.x
   python:
     min_pin: x.x
     max_pin: x.x
 pyqt:
 - '5.15'
 python:
-- 3.8.* *_cpython
+- 3.11.* *_cpython
 qt_main:
 - '5.15'
 target_platform:
-- linux-aarch64
+- linux-64
 uhd:
-- 4.4.0
+- 4.5.0
 volk:
 - '3.0'
 zip_keys:
