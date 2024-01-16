@@ -15,9 +15,11 @@ cxx_compiler_version:
 fftw:
 - '3'
 gnuradio_core:
-- 3.10.8
+- 3.10.9
 gnuradio_extra_pin:
 - ''
+libboost_devel:
+- '1.82'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 numpy:
@@ -35,9 +37,9 @@ qt_main:
 target_platform:
 - osx-64
 uhd:
-- 4.5.0
+- 4.6.0
 volk:
-- '3.0'
+- '3.1'
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
