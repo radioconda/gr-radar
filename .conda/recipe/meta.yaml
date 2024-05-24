@@ -54,7 +54,6 @@ requirements:
     - numpy
     - python
     - pyqt
-    - {{ pin_compatible('qwt', max_pin='x.x') }}
 
 test:
   commands:
