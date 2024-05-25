@@ -17,6 +17,7 @@ build:
 requirements:
   build:
     - {{ compiler("c") }}
+    - {{ stdlib("c") }}
     - {{ compiler("cxx") }}
     - cmake
     - git
@@ -54,7 +55,6 @@ requirements:
     - numpy
     - python
     - pyqt
-    - {{ pin_compatible('qwt', max_pin='x.x') }}
 
 test:
   commands:
